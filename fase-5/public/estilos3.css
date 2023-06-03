@@ -1,0 +1,164 @@
+.contenedor {
+    display: grid;
+    grid-template-areas:
+        " A A A A"
+        " J C C B"
+        " D D E E"
+        " F F F F"
+        " G G G G"
+        " I H H H";
+}
+
+body {
+    
+    background-color: #FBFFDC;
+
+}
+#botons {
+    
+    grid-area: J;
+    background-color: #eee598;
+    margin: 10px;
+    padding: 15px;
+    font-size: medium;
+
+}
+
+header {
+    grid-area: A;
+    text-align: center;
+    background-color: #79E0EE;
+    margin: 10px;
+    padding: 15px;
+
+}
+
+
+nav {
+    grid-area: B;
+    background-color: #98EECC;
+    margin: 10px;
+    padding: 15px;
+    font-size: medium;
+}
+
+section {
+    grid-area: C;
+    background-color: #D0F5BE;
+    margin: 10px;
+    padding: 15px;
+    font-size: larger;
+}
+
+#tema1 {
+    grid-area: D;
+    background-color: #FBFFDC;
+    margin: 10px;
+    padding: 15px;
+    font-size: large;
+}
+
+#tema2 {
+    grid-area: E;
+    background-color: #a1f3c6;
+    margin: 10px;
+    padding: 15px;
+    font-size: large;
+}
+
+#mockup{
+    grid-area: F;
+    background-color: #D0F5BE;
+    margin: 10px;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    
+}
+
+
+.Mockup img{
+    width: 700px;
+}
+
+#bibliografia{
+    grid-area: G;
+    background-color: #98EECC;
+    margin: 10px;
+    padding: 15px;
+    font-size: medium;
+}
+
+footer {
+    grid-area: H;
+    background-color: #D0F5BE;
+    margin: 10px;
+    padding: 15px;
+    font-size: large;
+}
+
+img{
+        width: 600px;
+}
+
+.Foto img{
+    width: 200px;
+    border-radius: 100%;
+}
+#foto{
+    grid-area: I;
+    margin: 10px;
+    padding: 15px;
+
+}
+
+#audio{
+    display: block;
+    width: 50px;
+    border-radius: 10px;
+    margin: 10px 15px;
+    padding: 15px 30px;
+    background-color: aliceblue;
+
+}
+
+#inicio{
+    display: block;
+    width: 50px;
+    border-radius: 10px;
+    margin: 10px 10px;
+    padding: 15px 30px;
+    background-color: aliceblue;
+
+}
+
+#cuestionario{
+    display: block;
+    width: 80px;
+    border-radius: 10px;
+    margin: 10px 15px;
+    padding: 15px 30px;
+    background-color: aliceblue;
+
+}
+
+#cuestionario:hover{
+    background-color: transparent;
+    border: 2px solid;
+
+
+}
+
+#audio:hover{
+    background-color: transparent;
+    border: 2px solid;
+
+}
+
+#inicio:hover{
+    background-color: transparent;
+    border: 2px solid;
+
+}

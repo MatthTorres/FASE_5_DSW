@@ -1,0 +1,22 @@
+body {
+    background-color: rgba(0, 255, 255, 0.897);
+}
+
+#resultado {
+    text-align: center;
+}
+.content {
+    display: grid;
+    grid-template-areas:
+        " A A A "
+        " B B B ";
+    
+}
+
+div {
+    grid-area: B;
+    background-color: #9dbbd6;
+    margin: 10px;
+    padding: 15px;
+    font-size: medium;
+}
